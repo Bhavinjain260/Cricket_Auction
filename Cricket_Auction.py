@@ -1,5 +1,4 @@
 import time
-
 import streamlit as st
 import sqlite3
 import os
@@ -168,7 +167,7 @@ class StreamlitUI:
         self.auction_manager = AuctionManager(self.db)
 
     def display_home_page(self):
-        st.title("🏏 Cricket Auction Management System")
+        st.title("🏏 Cricket Auction Management System by Bhavin")
 
         # Display statistics
         col1, col2, col3, col4 = st.columns(4)
